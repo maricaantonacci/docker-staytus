@@ -1,7 +1,7 @@
 FROM ubuntu:16.04
 LABEL maintainer="Alexander Trost <galexrt@googlemail.com>"
 
-ENV DEBIAN_FRONTEND="noninteractive" STAYTUS_VERSION="stable" TZ="Etc/UTC" TINI_VERSION="v0.18.0"
+ENV DEBIAN_FRONTEND="noninteractive" STAYTUS_VERSION="master" TZ="Etc/UTC" TINI_VERSION="v0.18.0"
 
 ADD https://github.com/krallin/tini/releases/download/${TINI_VERSION}/tini /tini
 
